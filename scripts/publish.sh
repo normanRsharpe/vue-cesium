@@ -16,6 +16,7 @@ pnpm update:version
 
 pnpm build
 
+cp .npmrc .npmrc
 cd dist/vue-cesium
 npm publish --tag next --access public --registry ${REGISTRY}
 cd -
